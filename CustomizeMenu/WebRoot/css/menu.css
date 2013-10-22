@@ -1,0 +1,43 @@
+ul,li{
+	/*清除菜单项的小圆点*/
+	list-style: none;
+}
+
+ul{
+	/*清除掉菜单项的缩进*/
+	padding:0px;
+	margin:0px;
+}
+
+.main{
+	/*控制主菜单的背影*/
+	background-image: url("../images/title.gif");
+	background-repeat:repeat-x;
+	width:120;
+}
+
+li{
+	background-color:silver;
+}
+
+.main a{
+	text-decoration: none;
+	color:white;
+	padding:15px;
+	background-image:url("../images/collapsed.gif");
+	background-repeat:no-repeat;
+	/*控制菜单前面的三角形的位置*/
+	background-position: 2px,center;
+	/* 使超链接a能够占满整个背景
+	
+	display:inline-block; */
+}
+.main li a{
+	color: black;
+	background-image:none;
+}
+
+.main ul{
+	 display:none; 
+}
+
